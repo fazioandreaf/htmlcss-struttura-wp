@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header{
+  background-color: pink;
+  height: 100px;
+}
+.container{
+  width: 80vw;
+  margin: auto;
+}
+.jumbo{
+  background-color: yellow;
+  height: 100px;
+}
+.intestazione{
+  background-color: lightblue;
+  height: 100px;
+  margin: 10px 0px;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.aside{
+  margin: 5% 0px;
+  width: 25%;
+  float: left;
+  background-color:lightblue;
+  height: 100px;
+}
+.central{
+  margin: 5%;
+  width: 40%;
+  float: left;
+  background-color: blue;
+  height: 100px;
+}
+footer{
+  background-color: purple;
+  height: 100px;
+}
